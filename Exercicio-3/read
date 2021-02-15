@@ -1,0 +1,11 @@
+Suponha três variantes do conjunto de validação:
+(a) o conjunto original 𝒱;
+(b) o conjunto 𝒱’ contendo apenas as instâncias difíceis (kDN > 0,5) de 𝒱; 
+(c) o conjunto 𝒱’ contendo apenas as instâncias fáceis (kDN <= 0,5) de 𝒱. 
+Avalie o desempenho (taxa de acerto, AUC, g-mean e f-measure) desses três conjuntos
+de validação na tarefa de seleção dinâmica de classificadores usando os algoritmos: 
+OLA, LCA, MCB, KNORA-E e KNORA-U. Compare também com a combinação estática usando 
+voto majoritário. Discuta os resultados.
+
+Usar: Bagging para gerar o pool com 100 Perceptrons; 10-fold cross-validation (7-folds para treinar, 2-folds para validar, 1-fold para testar; 
+dois bancos de dados binários e com atributos numéricos do repositório Promise (http://promise.site.uottawa.ca/SERepository/datasets-page.html).
