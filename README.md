@@ -1,11 +1,11 @@
-###  Exercise-1
+###  Exercicio-1
 
 It selected five public datasets with different characteristics and, for each dataset, 
 calculated the Oracle in the test set for Bagging, Adaboost, Random Subspace (50\%), and Random Oracles,
 changing the number of base classifiers [10, 20, …, 100].
 The Perceptron is used as a base-classifier, and it slit the datasets using 5-fold cross-validation.
 
-###  Exercise-2
+###  Exercicio-2
 
 It used two pruned approaches:
 
@@ -21,7 +21,7 @@ Assume three variants of the validation set
 
 3) Best first
 
-### Exercise-3
+### Exercicio-3
 
 It evaluated different approaches from DESlib:
 
